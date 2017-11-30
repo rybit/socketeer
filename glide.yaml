@@ -1,0 +1,11 @@
+package: github.com/rybit/socketeer
+import:
+- package: github.com/graarh/golang-socketio
+  subpackages:
+  - transport
+- package: github.com/sirupsen/logrus
+  version: v1.0.3
+- package: github.com/spf13/cobra
+  version: v0.0.1
+- package: github.com/gorilla/websocket
+  version: v1.2.0
